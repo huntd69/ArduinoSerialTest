@@ -79,7 +79,7 @@ Partial Class Form1
         '
         'PictureBox1
         '
-        Me.PictureBox1.BackColor = System.Drawing.Color.DarkSeaGreen
+        Me.PictureBox1.BackColor = System.Drawing.Color.Ivory
         Me.PictureBox1.Location = New System.Drawing.Point(12, 269)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(297, 144)
