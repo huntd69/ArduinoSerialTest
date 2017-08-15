@@ -115,40 +115,4 @@ Public Class Form1
         End If
     End Sub
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    Private Sub OldCode()
-        ' This is the old code
-        Dim returnStr As String = ""
-        Try
-            returnStr = SerialPort1.ReadExisting
-        Catch ex As Exception
-            returnStr = "ERROR"
-        End Try
-        If returnStr IsNot "" Then
-
-            TextBox1.Text = TextBox1.Text & returnStr
-        End If
-
-    End Sub
-
-
 End Class
